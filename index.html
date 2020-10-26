@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <title>Recerca de feina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--FONT-FAMILY REDRESSED & SOURCE SANS PRO CSS i web-->
+    <link href="css/tipo.css" rel="stylsheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    </head>
+<body>
+        <!--capcelera-->
+        <header class="projecte">
+            <h1>Reserca de feina i altres opcions</h1>
+            
+            <select class="idioma" name="seleccionaIdioma" >
+                <option value="anglès" selected>anglès</option>
+                <option value="castellà" selected>castellà</option>
+                <option value="català" selected>català</option>
+            </select>
+            <div class="menu-boto">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
+        </header>
+        <!--menu principal-->
+            <nav class="menu-bar"> 
+                <ul class="nav-menu">
+                    <li><a href="primeraFeina.html" title="primera">Primera feina</a></li>
+                    <li><a href="trenta.html" title="trenta">Busca'm als 30</a></li>
+                    <li><a href="quaranta.html" title="quaranta">Busca'm als 40</a></li>
+                    <li><a href="cinquanta.html" title="cincuanta">Busca'm als 50</a></li>
+                </ul>
+            </nav>
+        <!--buscador per fer preguntes-->
+        <form class="buscador" style="margin:auto;max-width:700px" action="#" method="POST" autocomplete="off">
+            <p>Resoldrem els teus dubtes i consultes: <br/>
+                A on? Com? Què? Qui?
+            </p>
+            <input type="text" placeholder="Preguntam" name="pregunta">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <main>
+        <!--slider de fotos temàtiques-->
+            <div class="bxslider">
+                <div><a href="primeraFeina.html"><h2>Primera feina</h2></a><img src="img/YoungPeople.jpg" alt="buscam la primera feina"/></div>
+                <div><a href="trenta.html"><h2>buscam als 30</h2></a><img src="img/trenta.jpg" alt="bucam feina a partir dels trenta"></div>
+                <div><a href="quaranta.html"><h2>buscam als 40</h2></a><img src="img/quaranta.jpg" alt="buscam feina a partir dels quaranta"></div>
+                <div><a href="cinquanta.html"><h2>buscam als 50</h2></a><img src="img/cinquanta.jpg" alt="buscam feina a partir dels cincuanta"></div>
+            </div>
+        </main>           
+        <footer class="social">
+            <section class="xarxes">
+                <ul>
+                    <li><a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </section>
+            <section class="copyright">
+                <h3>Recerca feina Copyright 2020</h3>
+            </section>
+               
+        </footer>
+    </body>
+ <!--CUSTOM CSS-->
+   <script src="js/menu.js"></script>
+    
+</html>
